@@ -20,10 +20,9 @@ jobs:
       run: make
       
     - name: Create release.
-      uses: ncipollo/release-action@v1
+      uses: marvinpinto/action-automatic-releases@v1.2.1
       with:
-        artifacts: ".build/resume.pdf"
-        tag: ${{ env.GITHUB_SHA }}
-        token: ${{ secrets.GITHUB_TOKEN }}
-      
-   
+        files: ".build/resume.pdf"
+        automatic_release_tag: "latest"
+        title: ${{ env.GITHUB_SHA }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
