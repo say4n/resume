@@ -4,6 +4,7 @@
         left: 0.6in,
         right: 0.6in, 
         top: 0.4in,
+        bottom: 0.4in,
     )
 )
 
@@ -134,9 +135,33 @@
             "Research on applying ML methods to optimize continuos variable quantum computing circuits."
         )
         #lines_with_date_and_description(
-            strong("Research Fellow") + ", Vison \& Image Processing Lab, IIT Bombay, India",
+            strong("Research Fellow") + ", Vison & Image Processing Lab, IIT Bombay, India",
             emph("May '18 - Jul '18"),
             "Worked on deep learning (CNNs, GANs) based CV methods for image co-segmentation with Prof. Subhasis Chaudhuri."
         )
     ]
+)
+
+#resume_section(
+    "Awards & Achievements",
+    [
+        Awarded *JAE Intro ICU Fellowship* by the Spanish National Research Council (CSIC) in 2020.\
+        Awarded *Summer Research Fellowship* by the Indian Academy of Sciences in 2018.\
+        *National Finalist* at Automate for the Bank hackathon organised by State Bank of India in 2018.\
+        Secured a *National Rank of 228* in WBJEE amongst 150,000 candidates in 2016.\
+        Secured a *National Rank of 26, Zonal Rank of 2* in National Cyber Olympiad in 2016.\
+        *Regional Finalist* at TCS IT Wiz Quiz (top 3/100 teams) in 2015.\
+    ],
+)
+
+#resume_section(
+    "Key Skills",
+    [
+        *Languages*: I'm fluent in Python, Kotlin, React, and English.
+        I've also written a good amount of SQL, Go, JavaScript, and C++. 
+        Proficient at shell scripting, and quick at picking up new languages as needed.
+
+        *Machine Learning & Data Analysis*: Reinforcement Learning (Factored MDP, Bandits, Options Framework), Deep Learning (CNNs, RNNs, GANs), Machine Learning (SVM, KNN, Decision Trees, Bayes), LLMs, Prompt Engineering, Exploratory Data Analysis
+    ],
+    print_bottom_line: true,
 )
