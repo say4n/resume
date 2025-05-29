@@ -165,3 +165,81 @@
     ],
     print_bottom_line: true,
 )
+
+#pagebreak()
+
+#resume_section(
+    "Select Personal Projects",
+    [
+        #link("https://github.com/say4n/metal.compute")[*metal.compute*] -- A C++ example showcasing the use of Apple's Metal API for general purpose GPU accelerated compute.
+        #v(-0.8em)
+
+        #link("https://github.com/mlpack/ensmallen")[*mlpack*] -- Implemented a framework for multi-objective optimization in the popular open-source C++ machine learning library mlpack.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/deepcosegmentation.pytorch")[*Deep Co-segmentation*] – Deep object co-segmentation with deep convolutional neural networks using a siamese architecture.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/pytorch-segnet")[*SegNet*] -- Semantic image segmentation using deep convolutional auto-encoders.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/bandit.rl")[*bandit.rl*] -- A k-armed bandit test bed implementation for comparing various reinforcement learning algorithms.
+        #v(-0.8em)
+
+        #link("https://overseerr.optionalstudio.work")[*Overseerr*] -- A native SwiftUI iOS application with over 2.4k purchases. Serves as a client for a self hosted media management system.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/dns.amplify")[*dns.amplify*] -- A proof of concept implementation to understand DNS amplification based DDoS attacks.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/rtx.go")[*rtx.go*] -- A brute force ray tracing implementation.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/eightyfive")[*eightyfive*] -- An emulator for Intel’s 8085.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/ysh")[*ysh*] -- An UNIX shell implementation.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/gobi")[*gobi*] -- An in-memory database with a query language.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/infinity")[*infinity*] -- A signed, arbitrary precision decimal arithmetic library for C++, dynamically linked at compile time.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/flow")[*flow*] -- Visualiser for control flow of arbitrary python code.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/fsmutil")[*fsmutil*] -- A finite state machine generator for binary sequence detection.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/pyscuss")[*Pyscuss*] – A real time messaging app, uses web sockets, non-persistent sessions.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/bfutil")[*bfutil*] -- An interpreter for the BF language and a translator from BF to C with optimisations.
+        #v(-0.8em)
+
+        #link("https://github.com/say4n/LinkTo")[*LinkTo*] -- An URL shortener with analytics dashboard, built using Flask framework, uses Redis as datastore.
+    ],
+)
+
+
+#resume_section(
+    "Academic Publications",
+    [
+        "Brain Signal Analysis for Mind Controlled Type-Writer Using a Deep Neural Network" -- $5^"th"$ WiSPNET, 2020, Rohini Das, *Sayan Goswami*, Sayantani Ghosh, Mousumi Laha, Chandrima Debnath and Amit Konar
+
+        "Relationship between Nash Equilibria and Pareto Optimal Solutions for Games of Pure Coordination" -- $10^"th"$ ICCCNT, 2019, Rohini Das, *Sayan Goswami* and Amit Konar
+
+        "Application of Deep Neural Network on Image Co-segmentation" -- Indian Academy of Sciences SRF Report, 2018, *Sayan Goswami* and Subhasis Chaudhuri
+    ],
+    print_bottom_line: true,
+)
+
+#align(start + bottom)[
+    #text(gray)[
+      Last updated on #datetime.today().display(
+        "[month repr:short] [day], [year]",
+      ).
+    ]
+]

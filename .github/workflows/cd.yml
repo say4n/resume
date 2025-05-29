@@ -1,4 +1,4 @@
-name: Makefile CI
+name: Build PDF
 
 on:
   push:
@@ -8,21 +8,21 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v3
     
-    - name: Install dependencies.
-      run: sudo apt update && sudo apt upgrade -y -q && sudo apt install -y -q texlive-full
+    - name: Install Typst.
+      run: brew install typst
       
-    - name: Build resume.
-      run: make
+    - name: Build PDF.
+      run: typst compile resume.typ
       
     - name: Create release.
       uses: marvinpinto/action-automatic-releases@v1.2.1
       with:
-        files: ".build/resume.pdf"
+        files: "resume.pdf"
         automatic_release_tag: "latest"
-        title: ${{ env.GITHUB_SHA }}
         repo_token: ${{ secrets.GITHUB_TOKEN }}
+        prerelease: false
