@@ -139,21 +139,12 @@
             "Significantly decreased latency, increased throughput over QUIC protocol for wireless use."
         )
         #lines_with_date_and_description(
-            strong("Mentor") + ", Deep RL Nanodegree, Udacity, Remote",
-            emph("Jul '19 - Jan '20"),
-            "Research on applying ML methods to optimize continuos variable quantum computing circuits."
-        )
-        #lines_with_date_and_description(
             strong("Research Fellow") + ", Vison & Image Processing Lab, IIT Bombay, India",
             emph("May '18 - Jul '18"),
             "Worked on deep learning (CNNs, GANs) based CV methods for image co-segmentation with Prof. Subhasis Chaudhuri."
         )
     ],
-    print_bottom_line: true,
 )
-
-#pagebreak()
-
 
 #resume_section(
     "Key Skills",
@@ -164,6 +155,7 @@
 
         *Machine Learning & Data Analysis*: Reinforcement Learning (Factored MDP, Bandits, Options Framework), Deep Learning (CNNs, RNNs, GANs), Machine Learning (SVM, KNN, Decision Trees, Bayes), LLMs, Prompt Engineering, Exploratory Data Analysis
     ],
+    print_bottom_line: true
 )
 
 #resume_section(
