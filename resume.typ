@@ -5,7 +5,7 @@
         right: 0.6in, 
         top: 0.4in,
         bottom: 0.4in,
-    )
+    ),
 )
 
 #let link_colour = rgb("006699")
@@ -19,6 +19,8 @@
 #show text: set text(0.95em)
 #show link: set text(fill: link_colour)
 #set par(leading: 0.45em)
+
+#show list: set list(marker: [▫])
 
 #let lines_with_date_and_description(title, date, description) = {
     [
@@ -67,7 +69,7 @@
             align: (end),
             row-gutter: 0.5em,
             "Edinburgh, Scotland",
-            link("mailto:sayan.goswami.106@gmail.com"),
+            link("mailto:email@sayan.page"),
             link("https://sayan.page"),
             link("https://github.com/say4n"),
             link("tel:+44 07765745821")
@@ -97,12 +99,19 @@
         #lines_with_date_and_description(
             strong("Software Development Engineer II") + ", Amazon, Edinburgh",
             emph("Jul '22 - Present"),
-            "SDE at Amazon Ads. Creating realtime advertising performance reporting dashboards for external and internal customers across various Ad products."
+            [
+                - Building state of the art, performant machine learning solutions and productionizing them to improve efficiency of ad creatives across Amazon. This enables initiatives such as #link("https://advertising.amazon.com/en-gb/library/guides/dco-dynamic-creative-optimization")[dynamic creative optimization] decreasing various pain point with content moderation, quality and diversity.
+                - Created a scalable service to track and manage the lifecycle of machine learning experiments used by internal teams, including a framework to easily productionize machine learning models built by internal teams.
+                - Built #link("https://aistudio.amazon")[AI Studio] for both internal and external customers - Amazon's first of its kind offering for advertisers.
+                - Built the Sponsored ads #link("https://advertising.amazon.co.uk/help/GHAAGTQNVBCLE8SS")[online report], the only place to look at campaign performance across a multitude of Sponsored ads products offered by Amazon. This influenced \$11.4B in revenue across Sponsored ads advertisers (\~3k MAU).
+                - Built various internal systems to raise the bar on operational excellence such as canary testing, effcient feature flags for launch control, access control mechanisms, and more. This led to reduction in latency (-75% from 20s to 5s), faster deployments (-91% from 7 hours to 35 mins) and countless hours saved.
+                - Mentored new hires and team mates on best practices, up and coming techonlogy trends and tools across various projects.
+            ]
         )
         #lines_with_date_and_description(
             strong("Site Reliability Engineer") + ", Sea AI Lab, Singapore",
             emph("Apr '22 - Jun '22"),
-            "DevOps, MLOps -- created monitoring tools for internal HPC cluster, established incident management practices, migrated actively used container registry with zero downtime."
+            "DevOps, MLOps -- created monitoring tools for internal HPC cluster, established incident management practices. Most notably, migrated an actively used container registry with zero downtime."
         )
         #lines_with_date_and_description(
             strong("ML Engineer") + ", Quantum Information Group, UAB, Barcelona",
@@ -139,7 +148,22 @@
             emph("May '18 - Jul '18"),
             "Worked on deep learning (CNNs, GANs) based CV methods for image co-segmentation with Prof. Subhasis Chaudhuri."
         )
-    ]
+    ],
+    print_bottom_line: true,
+)
+
+#pagebreak()
+
+
+#resume_section(
+    "Key Skills",
+    [
+        *Languages*: I'm fluent in Python, Kotlin, React, and English.
+        I've also written a good amount of SQL, Go, JavaScript (TS), and C++. 
+        Proficient at shell scripting, and quick at picking up new languages as needed.
+
+        *Machine Learning & Data Analysis*: Reinforcement Learning (Factored MDP, Bandits, Options Framework), Deep Learning (CNNs, RNNs, GANs), Machine Learning (SVM, KNN, Decision Trees, Bayes), LLMs, Prompt Engineering, Exploratory Data Analysis
+    ],
 )
 
 #resume_section(
@@ -153,20 +177,6 @@
         *Regional Finalist* at TCS IT Wiz Quiz (top 3/100 teams) in 2015.\
     ],
 )
-
-#resume_section(
-    "Key Skills",
-    [
-        *Languages*: I'm fluent in Python, Kotlin, React, and English.
-        I've also written a good amount of SQL, Go, JavaScript, and C++. 
-        Proficient at shell scripting, and quick at picking up new languages as needed.
-
-        *Machine Learning & Data Analysis*: Reinforcement Learning (Factored MDP, Bandits, Options Framework), Deep Learning (CNNs, RNNs, GANs), Machine Learning (SVM, KNN, Decision Trees, Bayes), LLMs, Prompt Engineering, Exploratory Data Analysis
-    ],
-    print_bottom_line: true,
-)
-
-#pagebreak()
 
 #resume_section(
     "Select Personal Projects",
