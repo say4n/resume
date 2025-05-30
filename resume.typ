@@ -102,9 +102,9 @@
             [
                 - Building state of the art, performant machine learning solutions and productionizing them to improve efficiency of ad creatives across Amazon. This enables initiatives such as #link("https://advertising.amazon.com/en-gb/library/guides/dco-dynamic-creative-optimization")[dynamic creative optimization] decreasing various pain point with content moderation, quality and diversity.
                 - Created a scalable service to track and manage the lifecycle of machine learning experiments used by internal teams, including a framework to easily productionize machine learning models built by internal teams.
-                - Built #link("https://aistudio.amazon")[AI Studio] for both internal and external customers - Amazon's first of its kind offering for advertisers.
+                - Built #link("https://aistudio.amazon")[AI Studio] for both internal and external customers - Amazon's first of its kind offering for advertisers. Architected and built an automated testing strategy to keep the service stable and highly available.
                 - Built the Sponsored ads #link("https://advertising.amazon.co.uk/help/GHAAGTQNVBCLE8SS")[online report], the only place to look at campaign performance across a multitude of Sponsored ads products offered by Amazon. This influenced \$11.4B in revenue under consideration across Sponsored ads advertisers (\~3k MAU).
-                - Built various internal systems to raise the bar on operational excellence such as canary testing, efficient feature flags for launch control, access control mechanisms, and more. This led to reduction in latency (-75% from 20s to 5s), faster deployments (-91% from 7 hours to 35 mins) and countless hours saved.
+                - Built internal systems to raise the bar on operational excellence such as canary testing, efficient feature flags for launch control, access control mechanisms, and more. This led to reduction in latency (-75% from 20s to 5s), faster deployments (-91% from 7 hours to 35 mins) and countless hours saved.
                 - Mentored new hires and team mates on best practices, up and coming technology trends and tools across various projects.
             ]
         )
