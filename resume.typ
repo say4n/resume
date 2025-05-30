@@ -69,7 +69,7 @@
             align: (end),
             row-gutter: 0.5em,
             "Edinburgh, Scotland",
-            link("mailto:email@sayan.page"),
+            link("mailto:sayan.goswami.106@gmail.com"),
             link("https://sayan.page"),
             link("https://github.com/say4n"),
             link("tel:+44 07765745821")
