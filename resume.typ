@@ -81,7 +81,7 @@
     "Education",
     [
         #lines_with_date_and_description(
-            strong("Univesitat Pompeu Fabra") + ", Barcelona, Spain",
+            strong("Universitat Pompeu Fabra") + ", Barcelona, Spain",
             emph("2020 - 2021"),
             emph("Master of Science") + ", Intelligent Interactive Systems"
         )
@@ -104,14 +104,17 @@
                 - Created a scalable service to track and manage the lifecycle of machine learning experiments used by internal teams, including a framework to easily productionize machine learning models built by internal teams.
                 - Built #link("https://aistudio.amazon")[AI Studio] for both internal and external customers - Amazon's first of its kind offering for advertisers.
                 - Built the Sponsored ads #link("https://advertising.amazon.co.uk/help/GHAAGTQNVBCLE8SS")[online report], the only place to look at campaign performance across a multitude of Sponsored ads products offered by Amazon. This influenced \$11.4B in revenue across Sponsored ads advertisers (\~3k MAU).
-                - Built various internal systems to raise the bar on operational excellence such as canary testing, effcient feature flags for launch control, access control mechanisms, and more. This led to reduction in latency (-75% from 20s to 5s), faster deployments (-91% from 7 hours to 35 mins) and countless hours saved.
-                - Mentored new hires and team mates on best practices, up and coming techonlogy trends and tools across various projects.
+                - Built various internal systems to raise the bar on operational excellence such as canary testing, efficient feature flags for launch control, access control mechanisms, and more. This led to reduction in latency (-75% from 20s to 5s), faster deployments (-91% from 7 hours to 35 mins) and countless hours saved.
+                - Mentored new hires and team mates on best practices, up and coming technology trends and tools across various projects.
             ]
         )
         #lines_with_date_and_description(
             strong("Site Reliability Engineer") + ", Sea AI Lab, Singapore",
             emph("Apr '22 - Jun '22"),
-            "DevOps, MLOps -- created monitoring tools for internal HPC cluster, established incident management practices. Most notably, migrated an actively used container registry with zero downtime."
+            [
+                - Enhanced HPC cluster reliability by developing and implementing advanced monitoring tools and establishing robust incident management practices.
+                - Executed a seamless, zero downtime migration of a critical, actively used container registry, ensuring uninterrupted service.
+            ]
         )
         #lines_with_date_and_description(
             strong("ML Engineer") + ", Quantum Information Group, UAB, Barcelona",
@@ -126,12 +129,15 @@
         #lines_with_date_and_description(
             strong("Research Fellow") + ", AI Research Institute (IIIA-CSIC), Barcelona",
             emph("Nov '20 - Aug '21"),
-            "Applying RL to model realistic behaviour of NPCs in simulation environments."
+            "Applying RL to model realistic behavior of NPCs in simulation environments."
         )
         #lines_with_date_and_description(
             strong("Core Contributor") + ", mlpack.org, Remote",
             emph("Sep '20 - Present"),
-            "Maintaining the popular C++ based open-source machine learning framework mlpack."
+            [
+                Implemented a framework for multi-objective optimization. 
+                Maintainer for the popular open-source machine learning framework mlpack.
+            ]
         )
         #lines_with_date_and_description(
             strong("Developer Associate") + ", Samsung R&D Institute, Bangalore",
@@ -139,7 +145,7 @@
             "Significantly decreased latency, increased throughput over QUIC protocol for wireless use."
         )
         #lines_with_date_and_description(
-            strong("Research Fellow") + ", Vison & Image Processing Lab, IIT Bombay, India",
+            strong("Research Fellow") + ", Vision & Image Processing Lab, IIT Bombay, India",
             emph("May '18 - Jul '18"),
             "Worked on deep learning (CNNs, GANs) based CV methods for image co-segmentation with Prof. Subhasis Chaudhuri."
         )
@@ -149,13 +155,12 @@
 #resume_section(
     "Key Skills",
     [
-        *Languages*: I'm fluent in Python, Kotlin, React, and English.
-        I've also written a good amount of SQL, Go, JavaScript (TS), and C++. 
-        Proficient at shell scripting, and quick at picking up new languages as needed.
+        *Languages*: Python, Kotlin, React, SQL, Go, JavaScript (TypeScript), C++, Shell Scripting
+
+        *Frameworks & Tools*: Pytorch, MLFlow/Aim, AWS services (SageMaker, Bedrock, Rekognition, ECS, S3, EC2, Lambda, CloudWatch, CloudFormation, Athena, DynamoDB), Docker, Git, Jupyter Notebooks.
 
         *Machine Learning & Data Analysis*: Reinforcement Learning (Factored MDP, Bandits, Options Framework), Deep Learning (CNNs, RNNs, GANs), Machine Learning (SVM, KNN, Decision Trees, Bayes), LLMs, Prompt Engineering, Exploratory Data Analysis
     ],
-    print_bottom_line: true
 )
 
 #resume_section(
@@ -163,7 +168,7 @@
     [
         Awarded *JAE Intro ICU Fellowship* by the Spanish National Research Council (CSIC) in 2020.\
         Awarded *Summer Research Fellowship* by the Indian Academy of Sciences in 2018.\
-        *National Finalist* at Automate for the Bank hackathon organised by State Bank of India in 2018.\
+        *National Finalist* at Automate for the Bank hackathon organized by State Bank of India in 2018.\
         Secured a *National Rank of 228* in WBJEE amongst 150,000 candidates in 2016.\
         Secured a *National Rank of 26, Zonal Rank of 2* in National Cyber Olympiad in 2016.\
         *Regional Finalist* at TCS IT Wiz Quiz (top 3/100 teams) in 2015.\
@@ -179,7 +184,7 @@
         #link("https://github.com/mlpack/ensmallen")[*mlpack*] -- Implemented a framework for multi-objective optimization in the popular open-source C++ machine learning library mlpack.
         #v(-0.8em)
 
-        #link("https://github.com/say4n/deepcosegmentation.pytorch")[*Deep Co-segmentation*] – Deep object co-segmentation with deep convolutional neural networks using a siamese architecture.
+        #link("https://github.com/say4n/deepcosegmentation.pytorch")[*Deep Co-segmentation*] -- Deep object co-segmentation with deep convolutional neural networks using a siamese architecture.
         #v(-0.8em)
 
         #link("https://github.com/say4n/pytorch-segnet")[*SegNet*] -- Semantic image segmentation using deep convolutional auto-encoders.
@@ -215,10 +220,10 @@
         #link("https://github.com/say4n/fsmutil")[*fsmutil*] -- A finite state machine generator for binary sequence detection.
         #v(-0.8em)
 
-        #link("https://github.com/say4n/pyscuss")[*Pyscuss*] – A real time messaging app, uses web sockets, non-persistent sessions.
+        #link("https://github.com/say4n/pyscuss")[*Pyscuss*] -- A real time messaging app, uses web sockets, non-persistent sessions.
         #v(-0.8em)
 
-        #link("https://github.com/say4n/bfutil")[*bfutil*] -- An interpreter for the BF language and a translator from BF to C with optimisations.
+        #link("https://github.com/say4n/bfutil")[*bfutil*] -- An interpreter for the BF language and a translator from BF to C with optimizations.
         #v(-0.8em)
 
         #link("https://github.com/say4n/LinkTo")[*LinkTo*] -- An URL shortener with analytics dashboard, built using Flask framework, uses Redis as datastore.

@@ -1,4 +1,24 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
     "makefile.configureOnOpen": false,
+    "cSpell.words": [
+        "Chaudhuri",
+        "convolutional",
+        "CSIC",
+        "emph",
+        "hackathon",
+        "IIIA",
+        "Jadavpur",
+        "Kolkata",
+        "mentees",
+        "mlpack",
+        "productionize",
+        "productionizing",
+        "QUIC",
+        "repr",
+        "Subhasis",
+        "Universitat",
+        "Visualiser",
+        "WBJEE"
+    ],
 }
