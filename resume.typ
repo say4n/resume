@@ -247,6 +247,6 @@
     #text(gray)[
       Last updated on #datetime.today().display(
         "[month repr:short] [day], [year]",
-      ).
+      ). Download the most recent version from #link("https://github.com/say4n/resume/releases/download/latest/resume.pdf")[here].
     ]
 ]
