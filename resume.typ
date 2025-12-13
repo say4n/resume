@@ -97,8 +97,14 @@
     "Experience",
     [
         #lines_with_date_and_description(
+            strong("Software Engineer (Machine Learning)") + ", Meta, London",
+            emph("Dec'25 - Present"),
+            "Working on building scalable machine learning systems to improve user experience across Meta's suite of products."
+        )
+
+        #lines_with_date_and_description(
             strong("Software Development Engineer II") + ", Amazon, Edinburgh",
-            emph("Jul '22 - Present"),
+            emph("Jul '22 - Nov '25"),
             [
                 - Building state of the art, performant machine learning solutions and productionizing them to improve efficiency of ad creatives across Amazon. This enables initiatives such as #link("https://advertising.amazon.com/en-gb/library/guides/dco-dynamic-creative-optimization")[dynamic creative optimization] decreasing various pain points with content moderation, leading up to \~15% increase in ad click through rates. 
                 - Created a scalable service to track and manage the lifecycle of machine learning experiments used by internal teams, including a framework to easily productionize machine learning models built by internal teams.
