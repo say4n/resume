@@ -97,7 +97,7 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Software Engineer (Machine Learning)") + ", Meta, London",
+            strong("Machine Learning Engineer") + ", Meta, London",
             emph("Dec'25 - Present"),
             "Working on building scalable machine learning systems to improve user experience across Meta's suite of products."
         )
