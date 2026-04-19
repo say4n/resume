@@ -78,22 +78,6 @@
 )
 
 #resume_section(
-    "Education",
-    [
-        #lines_with_date_and_description(
-            strong("Universitat Pompeu Fabra") + ", Barcelona, Spain",
-            emph("2020 - 2021"),
-            emph("Master of Science") + ", Intelligent Interactive Systems"
-        )
-        #lines_with_date_and_description(
-            strong("Jadavpur University") + ", Kolkata, India",
-            emph("2016 - 2020"),
-            emph("Bachelor of Engineering") + ", Electronics & Telecommunication Engineering"
-        )
-    ],
-)
-
-#resume_section(
     "Experience",
     [
         #lines_with_date_and_description(
@@ -159,6 +143,22 @@
             "Worked on deep learning (CNNs, GANs) based CV methods for image co-segmentation with Prof. Subhasis Chaudhuri."
         )
     ],
+)
+
+#resume_section(
+  "Education",
+  [
+    #lines_with_date_and_description(
+      strong("Universitat Pompeu Fabra") + ", Barcelona, Spain",
+      emph("2020 - 2021"),
+      emph("Master of Science") + ", Intelligent Interactive Systems",
+    )
+    #lines_with_date_and_description(
+      strong("Jadavpur University") + ", Kolkata, India",
+      emph("2016 - 2020"),
+      emph("Bachelor of Engineering") + ", Electronics & Telecommunication Engineering",
+    )
+  ],
 )
 
 #resume_section(
