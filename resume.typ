@@ -97,16 +97,19 @@
     "Experience",
     [
         #lines_with_date_and_description(
-            strong("Machine Learning Engineer") + ", Meta, London",
+            strong("Software Engineer, Machine Learning") + ", Meta, London",
             emph("Dec'25 - Present"),
-            "Working on building scalable machine learning systems to improve user experience across Meta's suite of products."
+            [
+                - Building machine learning solutions that reduce harm across Meta's family of products -- from classical ML to LLMs. 
+                - Petabyte scale data pipelines that retrieve, embed and deduplicate billions of photos, videos and posts every day to power integrity, copyright workflows.
+            ]
         )
 
         #lines_with_date_and_description(
             strong("Software Development Engineer II") + ", Amazon, Edinburgh",
             emph("Jul '22 - Nov '25"),
             [
-                - Building state of the art, performant machine learning solutions and productionizing them to improve efficiency of ad creatives across Amazon. This enables initiatives such as #link("https://advertising.amazon.com/en-gb/library/guides/dco-dynamic-creative-optimization")[dynamic creative optimization] decreasing various pain points with content moderation, leading up to \~15% increase in ad click through rates. 
+                - Built state of the art, performant machine learning solutions and productionizing them to improve efficiency of ad creatives across Amazon. This enabled initiatives such as #link("https://advertising.amazon.com/en-gb/library/guides/dco-dynamic-creative-optimization")[dynamic creative optimization] decreasing various pain points with content moderation, leading up to \~15% increase in ad click through rates. 
                 - Created a scalable service to track and manage the lifecycle of machine learning experiments used by internal teams, including a framework to easily productionize machine learning models built by internal teams.
                 - Built #link("https://aistudio.amazon")[AI Studio] for both internal and external customers - Amazon's first of its kind offering for advertisers. Architected and built an automated testing strategy to keep the service stable and highly available.
                 - Built the Sponsored ads #link("https://advertising.amazon.co.uk/help/GHAAGTQNVBCLE8SS")[online report], the only place to look at campaign performance across a multitude of Sponsored ads products offered by Amazon. This influenced \$11.4B in revenue under consideration across Sponsored ads advertisers (\~3k MAU).
@@ -251,7 +254,7 @@
 
 #align(start + bottom)[
     #text(gray)[
-      Last updated on #datetime.today().display(
+      Built on #datetime.today().display(
         "[month repr:short] [day], [year]",
       ). Download the most recent version from #link("https://github.com/say4n/resume/releases/download/latest/resume.pdf")[here].
     ]
