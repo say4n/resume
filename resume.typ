@@ -86,6 +86,8 @@
             [
                 - Building machine learning solutions that reduce harm across Meta's family of products -- from classical ML to LLMs. 
                 - Petabyte scale data pipelines that retrieve, embed and deduplicate billions of photos, videos and posts every day to power integrity, copyright workflows.
+                - Upskilling team through regular research deep-dives, tech trend analysis, and mentorship on industry best practices.
+                - Architected an org-wide model tracking service to prevent downstream failures and influenced the framework as a blueprint for other engineering teams.
             ]
         )
 
@@ -137,11 +139,11 @@
             emph("May '19 - Jul '19"),
             "Significantly decreased latency, increased throughput over QUIC protocol for wireless use."
         )
-        #lines_with_date_and_description(
-            strong("Research Fellow") + ", Vision & Image Processing Lab, IIT Bombay, India",
-            emph("May '18 - Jul '18"),
-            "Worked on deep learning (CNNs, GANs) based CV methods for image co-segmentation with Prof. Subhasis Chaudhuri."
-        )
+        // #lines_with_date_and_description(
+        //     strong("Research Fellow") + ", Vision & Image Processing Lab, IIT Bombay, India",
+        //     emph("May '18 - Jul '18"),
+        //     "Worked on deep learning (CNNs, GANs) based CV methods for image co-segmentation with Prof. Subhasis Chaudhuri."
+        // )
     ],
 )
 
