@@ -68,7 +68,7 @@
             columns: (auto),
             align: (end),
             row-gutter: 0.5em,
-            "Edinburgh, Scotland",
+            "London, UK",
             link("mailto:sayan.goswami.106@gmail.com"),
             link("https://sayan.page"),
             link("https://github.com/say4n"),
