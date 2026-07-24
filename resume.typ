@@ -72,7 +72,7 @@
             link("mailto:sayan.goswami.106@gmail.com"),
             link("https://sayan.page"),
             link("https://github.com/say4n"),
-            link("tel:+44 07765745821")
+            link("tel:+44 7765 745821")
         )
     ]
 )
@@ -166,66 +166,67 @@
 #resume_section(
     "Key Skills",
     [
-        *Languages*: Python, Kotlin, React, SQL, Go, JavaScript (TypeScript), C++, Shell Scripting
+        *Languages*: Python, SQL, Kotlin, Go, JavaScript (TypeScript), C++, Shell Scripting
 
-        *Frameworks & Tools*: Pytorch, Jax, AWS services (SageMaker, Bedrock, etc), Docker, Git, Jupyter Notebooks.
+        *Frameworks & Tools*: PyTorch, JAX, AWS services (SageMaker, Bedrock, etc), Docker, Git, Jupyter Notebooks.
 
         *Machine Learning & Data Analysis*: Transformers (LLM SFT, RL-VR, benchmarks), Deep Learning (CNN, ANN), Classical ML (Trees, RF, XGB).
     ],
 )
 
 #resume_section(
-    "Select Personal Projects",
+    "Projects & Open Source",
     [
-        #link("https://github.com/say4n/metal.compute")[*metal.compute*] -- A C++ example showcasing the use of Apple's Metal API for general purpose GPU accelerated compute.
+        #link("https://optionalstudio.work")[*Ovue*] -- Built and launched a native SwiftUI iOS client that generated \$10k+ in revenue from more than 4,500 purchases.
         #v(-0.8em)
 
-        #link("https://github.com/mlpack/ensmallen")[*mlpack*] -- Implemented a framework for multi-objective optimization in the popular open-source C++ machine learning library mlpack.
+        #link("https://github.com/say4n/mlxgpt")[*mlxgpt*] -- Implemented GPT-2 from scratch using Apple’s MLX framework.
         #v(-0.8em)
 
-        #link("https://github.com/say4n/deepcosegmentation.pytorch")[*Deep Co-segmentation*] -- Deep object co-segmentation with deep convolutional neural networks using a siamese architecture.
+        #link("https://github.com/mlpack/ensmallen")[*ensmallen*] -- Implemented a framework for multi-objective optimization in the popular open-source header-only C++ library for numerical optimization.
         #v(-0.8em)
 
-        #link("https://github.com/say4n/pytorch-segnet")[*SegNet*] -- Semantic image segmentation using deep convolutional auto-encoders.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/deepcosegmentation.pytorch")[*Deep Co-segmentation*] -- Deep object co-segmentation with deep convolutional neural networks using a siamese architecture.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/bandit.rl")[*bandit.rl*] -- A k-armed bandit test bed implementation for comparing various reinforcement learning algorithms.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/pytorch-segnet")[*SegNet*] -- Semantic image segmentation using deep convolutional auto-encoders.
+        // #v(-0.8em)
 
-        #link("https://overseerr.optionalstudio.work")[*Overseerr*] -- A native SwiftUI iOS application with over 2.4k purchases. Serves as a client for a self hosted media management system.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/bandit.rl")[*bandit.rl*] -- A k-armed bandit test bed implementation for comparing various reinforcement learning algorithms.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/dns.amplify")[*dns.amplify*] -- A proof of concept implementation to understand DNS amplification based DDoS attacks.
-        #v(-0.8em)
+        #link("https://github.com/say4n/metal.compute")[*metal.compute*] -- Implemented general-purpose GPU-accelerated compute in C++ using Apple's Metal API.
 
-        #link("https://github.com/say4n/rtx.go")[*rtx.go*] -- A brute force ray tracing implementation.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/dns.amplify")[*dns.amplify*] -- A proof of concept implementation to understand DNS amplification based DDoS attacks.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/eightyfive")[*eightyfive*] -- An emulator for Intel’s 8085.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/rtx.go")[*rtx.go*] -- A brute force ray tracing implementation.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/ysh")[*ysh*] -- An UNIX shell implementation.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/eightyfive")[*eightyfive*] -- An emulator for Intel’s 8085.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/gobi")[*gobi*] -- An in-memory database with a query language.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/ysh")[*ysh*] -- An UNIX shell implementation.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/infinity")[*infinity*] -- A signed, arbitrary precision decimal arithmetic library for C++, dynamically linked at compile time.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/gobi")[*gobi*] -- An in-memory database with a query language.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/flow")[*flow*] -- Visualiser for control flow of arbitrary python code.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/infinity")[*infinity*] -- A signed, arbitrary precision decimal arithmetic library for C++, dynamically linked at compile time.
 
-        #link("https://github.com/say4n/fsmutil")[*fsmutil*] -- A finite state machine generator for binary sequence detection.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/flow")[*flow*] -- Visualiser for control flow of arbitrary python code.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/pyscuss")[*Pyscuss*] -- A real time messaging app, uses web sockets, non-persistent sessions.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/fsmutil")[*fsmutil*] -- A finite state machine generator for binary sequence detection.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/bfutil")[*bfutil*] -- An interpreter for the BF language and a translator from BF to C with optimizations.
-        #v(-0.8em)
+        // #link("https://github.com/say4n/pyscuss")[*Pyscuss*] -- A real time messaging app, uses web sockets, non-persistent sessions.
+        // #v(-0.8em)
 
-        #link("https://github.com/say4n/LinkTo")[*LinkTo*] -- An URL shortener with analytics dashboard, built using Flask framework, uses Redis as datastore.
+        // #link("https://github.com/say4n/bfutil")[*bfutil*] -- An interpreter for the BF language and a translator from BF to C with optimizations.
+        // #v(-0.8em)
+
+        // #link("https://github.com/say4n/LinkTo")[*LinkTo*] -- An URL shortener with analytics dashboard, built using Flask framework, uses Redis as datastore.
     ],
     print_bottom_line: true,
 )
