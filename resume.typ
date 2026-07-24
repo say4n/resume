@@ -84,7 +84,7 @@
             strong("Software Engineer, Machine Learning") + ", Meta, London",
             emph("Dec'25 - Present"),
             [
-                - Building machine learning solutions that reduce harm across Meta's family of products -- from classical ML to LLMs. 
+                - Building machine learning solutions that reduce harm across Meta's family of products -- from classical ML to SFT of large language models. 
                 - Petabyte scale data pipelines that retrieve, embed and deduplicate billions of photos, videos and posts every day to power integrity, copyright workflows.
                 - Upskilling team through regular research deep-dives, tech trend analysis, and mentorship on industry best practices.
                 - Architected an org-wide model tracking service to prevent downstream failures and influenced the framework as a blueprint for other engineering teams.
@@ -99,7 +99,7 @@
                 - Created a scalable service to track and manage the lifecycle of machine learning experiments used by internal teams, including a framework to easily productionize machine learning models built by internal teams.
                 - Built #link("https://aistudio.amazon")[AI Studio] for both internal and external customers - Amazon's first of its kind offering for advertisers. Architected and built an automated testing strategy to keep the service stable and highly available.
                 - Built the Sponsored ads #link("https://advertising.amazon.co.uk/help/GHAAGTQNVBCLE8SS")[online report], the only place to look at campaign performance across a multitude of Sponsored ads products offered by Amazon. This influenced \$11.4B in revenue under consideration across Sponsored ads advertisers (\~3k MAU).
-                - Built internal systems to raise the bar on operational excellence such as canary testing, efficient feature flags for launch control, access control mechanisms, and more. This led to reduction in latency (-75% from 20s to 5s), faster deployments (-91% from 7 hours to 35 mins) and countless hours saved.
+                - Built internal systems to raise the bar on operational excellence. This led to reduction in latency (-75% from 20s to 5s), faster deployments (-91% from 7 hours to 35 mins) and countless hours saved.
                 - Mentored new hires and team mates on best practices, up and coming technology trends and tools across various projects.
             ]
         )
@@ -134,11 +134,11 @@
                 Maintainer for the popular open-source machine learning framework mlpack.
             ]
         )
-        #lines_with_date_and_description(
-            strong("Developer Associate") + ", Samsung R&D Institute, Bangalore",
-            emph("May '19 - Jul '19"),
-            "Significantly decreased latency, increased throughput over QUIC protocol for wireless use."
-        )
+        // #lines_with_date_and_description(
+        //     strong("Developer Associate") + ", Samsung R&D Institute, Bangalore",
+        //     emph("May '19 - Jul '19"),
+        //     "Significantly decreased latency, increased throughput over QUIC protocol for wireless use."
+        // )
         // #lines_with_date_and_description(
         //     strong("Research Fellow") + ", Vision & Image Processing Lab, IIT Bombay, India",
         //     emph("May '18 - Jul '18"),
@@ -168,9 +168,9 @@
     [
         *Languages*: Python, Kotlin, React, SQL, Go, JavaScript (TypeScript), C++, Shell Scripting
 
-        *Frameworks & Tools*: Pytorch, MLFlow/Aim, AWS services (SageMaker, Bedrock, Rekognition, ECS, S3, EC2, Lambda, CloudWatch, CloudFormation, Athena, DynamoDB), Docker, Git, Jupyter Notebooks.
+        *Frameworks & Tools*: Pytorch, Jax, AWS services (SageMaker, Bedrock, etc), Docker, Git, Jupyter Notebooks.
 
-        *Machine Learning & Data Analysis*: Reinforcement Learning (Factored MDP, Bandits, Options Framework), Deep Learning (CNNs, RNNs, GANs), Machine Learning (SVM, KNN, Decision Trees, Bayes), LLMs, Prompt Engineering, Exploratory Data Analysis
+        *Machine Learning & Data Analysis*: Transformers (LLM SFT, RL-VR, benchmarks), Deep Learning (CNN, ANN), Classical ML (Trees, RF, XGB).
     ],
 )
 
