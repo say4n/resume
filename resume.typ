@@ -84,7 +84,7 @@
             strong("Software Engineer, Machine Learning") + ", Meta, London",
             emph("Dec'25 - Present"),
             [
-                - Building machine learning solutions that reduce harm across Meta's family of products -- from classical ML to SFT of large language models. 
+                - Identifying similarity amongst billions of posts to reduce harm across Meta's family of products -- from classical ML to SFT of large language models. 
                 - Petabyte scale data pipelines that retrieve, embed and deduplicate billions of photos, videos and posts every day to power integrity, copyright workflows.
                 - Upskilling team through regular research deep-dives, tech trend analysis, and mentorship on industry best practices.
                 - Architected an org-wide model tracking service to prevent downstream failures and influenced the framework as a blueprint for other engineering teams.
@@ -114,7 +114,7 @@
         #lines_with_date_and_description(
             strong("ML Engineer") + ", Quantum Information Group, UAB, Barcelona",
             emph("Sep '21 - Mar '22"),
-            "Research on applying ML methods to optimize continuos variable quantum computing circuits."
+            "Research on applying ML methods to optimize continuous variable quantum computing circuits."
         )
         #lines_with_date_and_description(
             strong("Mentor, Google Summer of Code") + ", mlpack.org",
@@ -170,7 +170,7 @@
 
         *Frameworks & Tools*: PyTorch, JAX, AWS services (SageMaker, Bedrock, etc), Docker, Git, Jupyter Notebooks.
 
-        *Machine Learning & Data Analysis*: Transformers (LLM SFT, RL-VR, benchmarks), Deep Learning (CNN, ANN), Classical ML (Trees, RF, XGB).
+        *Machine Learning & Data Analysis*: Transformers (LLM SFT, RLVR, benchmarks), Deep Learning (CNN, ANN), Classical ML (Trees, RF, XGB).
     ],
 )
 
