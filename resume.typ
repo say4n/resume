@@ -184,17 +184,16 @@
         #link("https://optionalstudio.work")[*Ovue*] -- Built and launched a native SwiftUI iOS client that generated \$10k+ in revenue from more than 4,500 purchases.
         #v(-0.8em)
 
+        #link("https://github.com/say4n/hotreload")[*hotreload*] -- Hot reloading for Python; 300+ GitHub stars.
+        #v(-0.8em)
         #link("https://github.com/say4n/mlxgpt")[*mlxgpt*] -- Implemented GPT-2 from scratch using Apple’s MLX framework.
         #v(-0.8em)
 
-        #link("https://github.com/mlpack/ensmallen")[*ensmallen*] -- Implemented a framework for multi-objective optimization in the popular open-source header-only C++ library for numerical optimization.
+        #link("https://github.com/mlpack/ensmallen")[*ensmallen*] -- Multi-objective optimization framework, merged upstream into ensmallen -- the numerical optimization library underpinning mlpack.
         #v(-0.8em)
 
-        // #link("https://github.com/say4n/deepcosegmentation.pytorch")[*Deep Co-segmentation*] -- Deep object co-segmentation with deep convolutional neural networks using a siamese architecture.
-        // #v(-0.8em)
-
-        // #link("https://github.com/say4n/pytorch-segnet")[*SegNet*] -- Semantic image segmentation using deep convolutional auto-encoders.
-        // #v(-0.8em)
+        #link("https://github.com/say4n/pytorch-segnet")[*pytorch-segnet*] -- Semantic image segmentation using deep convolutional auto-encoders; 90+ stars, 35 forks.
+        #v(-0.8em)
 
         // #link("https://github.com/say4n/bandit.rl")[*bandit.rl*] -- A k-armed bandit test bed implementation for comparing various reinforcement learning algorithms.
         // #v(-0.8em)
