@@ -77,15 +77,17 @@
     ]
 )
 
+#align(center)[Machine Learning Engineer | LLM Post-Training, Safety & Applied ML]
+
 #resume_section(
     "Experience",
     [
         #lines_with_date_and_description(
             strong("Software Engineer, Machine Learning") + ", Meta, London",
-            emph("Dec'25 - Present"),
+            emph("Dec '25 - Present"),
             [
                 - Leading a pod of 5 ICs to improve post training for Meta's frontier models.
-                - Identifying similarity amongst billions of posts to reduce harm across Meta's family of products -- from classical ML to SFT of large language models. 
+                - Identifying similarity amongst billions of posts to reduce harm (11.91% reduction in teens demographic, 104% of original goal) across Meta's family of products -- from classical ML to SFT of large language models. 
                 - Upskilling team through regular research deep-dives, tech trend analysis, and mentorship on industry best practices.
                 - Architected an org-wide model tracking service to prevent downstream failures and influenced the framework as a blueprint for other engineering teams.
             ]
@@ -95,10 +97,12 @@
             strong("Software Development Engineer II") + ", Amazon, Edinburgh",
             emph("Jul '22 - Nov '25"),
             [
-                - Built state of the art, performant machine learning solutions and productionizing them to improve efficiency of ad creatives across Amazon. This enabled initiatives such as #link("https://advertising.amazon.com/en-gb/library/guides/dco-dynamic-creative-optimization")[dynamic creative optimization] decreasing various pain points with content moderation, leading up to \~15% increase in ad click through rates. 
+                - Built and productionized ML models for ad creative efficiency across Amazon, powering #link(
+                  "https://advertising.amazon.com/en-gb/library/guides/dco-dynamic-creative-optimization",
+                )[dynamic creative optimization] and driving a \~15% increase in ad click-through rate.
                 - Created a scalable service to track and manage the lifecycle of machine learning experiments used by internal teams, including a framework to easily productionize machine learning models built by internal teams.
                 - Built #link("https://aistudio.amazon")[AI Studio] for both internal and external customers - Amazon's first of its kind offering for advertisers. Architected and built an automated testing strategy to keep the service stable and highly available.
-                - Built the Sponsored ads #link("https://advertising.amazon.co.uk/help/GHAAGTQNVBCLE8SS")[online report], the only place to look at campaign performance across a multitude of Sponsored ads products offered by Amazon. This influenced \$11.4B in revenue under consideration across Sponsored ads advertisers (\~3k MAU).
+                - Built the Sponsored ads #link("https://advertising.amazon.co.uk/help/GHAAGTQNVBCLE8SS")[online report], the only place to look at campaign performance across a multitude of Sponsored ads products offered by Amazon. This influenced \$11.4B in ad spend across Sponsored ads advertisers (\~3k MAU).
                 - Built internal systems to raise the bar on operational excellence. This led to reduction in latency (-75% from 20s to 5s), faster deployments (-91% from 7 hours to 35 mins) and countless hours saved.
                 - Mentored new hires and team mates on best practices, up and coming technology trends and tools across various projects.
             ]
@@ -166,11 +170,11 @@
 #resume_section(
     "Key Skills",
     [
-        *Languages*: Python, SQL, Kotlin, Go, JavaScript (TypeScript), C++, Shell Scripting
+        *Machine Learning*: LLM Post-Training (SFT, RLVR), Transformers, Deep Learning (CNN), Classical ML (Trees, RF, XGBoost)
 
-        *Frameworks & Tools*: PyTorch, JAX, AWS services (SageMaker, Bedrock, etc), Docker, Git, Jupyter Notebooks.
+        *Frameworks & Tools*: PyTorch, JAX, AWS (SageMaker, Bedrock), Docker, Git
 
-        *Machine Learning & Data Analysis*: Transformers (LLM SFT, RLVR, benchmarks), Deep Learning (CNN, ANN), Classical ML (Trees, RF, XGB).
+        *Languages*: Python, SQL, C++, Go, Kotlin, TypeScript
     ],
 )
 
