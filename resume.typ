@@ -84,8 +84,8 @@
             strong("Software Engineer, Machine Learning") + ", Meta, London",
             emph("Dec'25 - Present"),
             [
+                - Leading a pod of 5 ICs to improve post training for Meta's frontier models.
                 - Identifying similarity amongst billions of posts to reduce harm across Meta's family of products -- from classical ML to SFT of large language models. 
-                - Petabyte scale data pipelines that retrieve, embed and deduplicate billions of photos, videos and posts every day to power integrity, copyright workflows.
                 - Upskilling team through regular research deep-dives, tech trend analysis, and mentorship on industry best practices.
                 - Architected an org-wide model tracking service to prevent downstream failures and influenced the framework as a blueprint for other engineering teams.
             ]
