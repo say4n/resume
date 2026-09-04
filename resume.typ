@@ -77,7 +77,7 @@
     ]
 )
 
-#align(center)[Machine Learning Engineer | LLM Post-Training, Safety & Applied ML]
+#align(center)[Machine Learning Engineer]
 
 #resume_section(
     "Experience",
@@ -86,10 +86,9 @@
             strong("Software Engineer, Machine Learning") + ", Meta, London",
             emph("Dec '25 - Present"),
             [
-                - Leading a pod of 5 ICs to improve post training for Meta's frontier models.
-                - Identifying similarity amongst billions of posts to reduce harm (11.91% reduction in teens demographic, 104% of original goal) across Meta's family of products -- from classical ML to SFT of large language models. 
-                - Upskilling team through regular research deep-dives, tech trend analysis, and mentorship on industry best practices.
-                - Architected an org-wide model tracking service to prevent downstream failures and influenced the framework as a blueprint for other engineering teams.
+                - Tech lead (IC, no reports) for 5-engineer pod owning post-training for Muse Spark for autonomous research — agentic SFT + RLVR, eval driven data curation; rated Outstanding H1 2026.
+                - Reduced harm by \~12% in teens demographic across Meta's family of apps (billions of organic posts/day) via large scale near deduplication with embeddings, safety aligned post-training of LLMs. 
+                - Shipped model tracker for 3 teams (\~7 models) showing what goes in and who uses it; other teams adopted it to catch breaking changes and dependencies.
             ]
         )
 
@@ -107,14 +106,14 @@
                 - Mentored new hires and team mates on best practices, up and coming technology trends and tools across various projects.
             ]
         )
-        #lines_with_date_and_description(
-            strong("Site Reliability Engineer") + ", Sea AI Lab, Singapore",
-            emph("Apr '22 - Jun '22"),
-            [
-                - Enhanced HPC cluster reliability by developing and implementing advanced monitoring tools and establishing robust incident management practices.
-                - Executed a seamless, zero downtime migration of a critical, actively used container registry, ensuring uninterrupted service.
-            ]
-        )
+        // #lines_with_date_and_description(
+        //     strong("Site Reliability Engineer") + ", Sea AI Lab, Singapore",
+        //     emph("Apr '22 - Jun '22"),
+        //     [
+        //         - Enhanced HPC cluster reliability by developing and implementing advanced monitoring tools and establishing robust incident management practices.
+        //         - Executed a seamless, zero downtime migration of a critical, actively used container registry, ensuring uninterrupted service.
+        //     ]
+        // )
         #lines_with_date_and_description(
             strong("ML Engineer") + ", Quantum Information Group, UAB, Barcelona",
             emph("Sep '21 - Mar '22"),
