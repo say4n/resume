@@ -70,8 +70,9 @@
             row-gutter: 0.5em,
             "London, UK",
             link("mailto:sayan.goswami.106@gmail.com"),
-            link("https://sayan.page"),
+            // link("https://sayan.page"),
             link("https://github.com/say4n"),
+            link("https://www.linkedin.com/in/sayan-goswami/"),
             link("tel:+44 7765 745821")
         )
     ]
